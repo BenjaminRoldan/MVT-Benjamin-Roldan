@@ -9,5 +9,5 @@ class Familiar(models.Model):
     nacimiento=models.DateField()
 
     def __str__(self) -> str:
-        return f'{self.nombre} es mi {self.parentesco} y tiene {self.edad}años dado que nació el {self.nacimiento}' 
+        return f'{self.nombre} es mi {self.parentesco} y tiene {self.edad} años dado que nació en {self.nacimiento}' 
 
