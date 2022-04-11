@@ -4,12 +4,13 @@
 
 {% block contenidoAdicional %}
 
-<h4> Estos son los registros de familiares en la base de datos</h4>
+<h4> <p style="color:olive; text-decoration:wavy;"> <b>Estos son los registros de familiares en la base de datos </b></p> </h4>
 
 <ul>
+
     {% for familiar in familiares %}
 
-    <li>{{familiar}}</li>
+    <li> <p style="color:darkolivegreen;"> <b> {{familiar}} </b> </p> </li>
 
     {% endfor %}
 
